@@ -37,3 +37,10 @@ myFunction();
 
 console.log(typeof myobj)  // typeof will geet the datatype of that element 
                                 // typeof null is object
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive), Heap (Non-Primitive)
+co
