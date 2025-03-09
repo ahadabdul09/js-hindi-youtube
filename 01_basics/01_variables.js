@@ -10,4 +10,4 @@ accountCity = "BEnmajh"
 
 // accountId = 2
 console.log(accountId);
-console.table([accountId, accountEmail , accountPassward  , accountCity]) 
+console.table([accountId, accountEmail , accountPassward  , accountCity])
