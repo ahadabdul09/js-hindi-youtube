@@ -14,7 +14,7 @@ let userEmail; // undefined
 const id = Symbol('123')       // return type is of Symbol
 const anotherId = Symbol('123')   // the result of both the symbol is diff 
 
-console.log(id === anotherId)
+//console.log(id === anotherId)
 
 
 // Reference type / non premitive  in memory there refernce are allocated 
@@ -33,9 +33,9 @@ const myFunction = function(){       // myFunction return type is function
     console.log("hello world");
 }
 
-myFunction();
+// myFunction();
 
-console.log(typeof myobj)  // typeof will geet the datatype of that element 
+// console.log(typeof myobj)  // typeof will geet the datatype of that element 
                                 // typeof null is object
 
 
@@ -43,4 +43,15 @@ console.log(typeof myobj)  // typeof will geet the datatype of that element
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // Stack(primitive), Heap (Non-Primitive)
-co
+let myName = "Abdul ahad"
+
+let newName = myName
+newName = "abdullah"
+
+console.log(myName);
+console.log(newName);  
+
+let user = {
+    email: "aja@gmail"
+}
+
