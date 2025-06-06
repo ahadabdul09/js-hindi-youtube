@@ -12,6 +12,13 @@ for (const key in myObject) {
 const prgm = ["js","ruby","stark"]
 
 for (const key in prgm) {
-   console.log(key);
-   
+   //console.log(key); //u will be grtting the value 0 1 2 as they are the key for yhis array
+   //console.log(prgm[key]); // by doing so u will be getting the value to the keys
 }
+
+// const map = new Map()
+// map.set('IN', "INDIA")
+// for (const key in map) {
+//     console.log(key);  // map is not iteratable
+// }
+
